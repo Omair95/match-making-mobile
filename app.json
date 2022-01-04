@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "slug": "match-making-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.matchmaking"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "name": "Match making project",
+    "description": "Match making app for muslim singles",
+    "ios": {
+      "supportsTablet": true
+    }
+  
+  }
+}
